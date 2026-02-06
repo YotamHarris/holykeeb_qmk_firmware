@@ -48,5 +48,8 @@
     #define RPC_M2S_BUFFER_SIZE 64
 #endif
 
+/* Disable OLED auto-sleep (we handle idle animation ourselves) */
+#define OLED_TIMEOUT 0
+
 #undef PRINTF_SUPPORT_DECIMAL_SPECIFIERS
 #define PRINTF_SUPPORT_DECIMAL_SPECIFIERS 1
